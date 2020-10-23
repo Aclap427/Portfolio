@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+body {
+    background-color: rgba(97, 5, 5, 0.192);
+    
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+    background-image: url('https://i.imgur.com/81OWYdl.png');
+    background-repeat: repeat-y;
+    font-size: 1em;
+    
+
+}
+
+#rightBar {
+    background-color: rgba(53, 1, 1, 0.877);
+    font-family: 'Zilla Slab', serif;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding: 2%;
+    margin: 0;
+    position: fixed;
+    right:0;
+    top: 0;
+    color: rgb(194, 124, 124);
+}
+
+#circlePhoto {
+    border-radius: 10px;
+    width: 150px;
+    padding-top: 10%;
+    
+}
+
+#backPhoto {
+    width:100%;
+    z-index: -1;
+    position: relative;
+    margin: 0;
+    
+    
+    
+}
+
+ul {
+    list-style-type: square;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#navLinks{
+    justify-content: space-around;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.829);
+    position: relative;
+    left:7%;
+    width: 60%;
+    height:100%;
+    z-index: 2;
+    border-radius: 10px;
+    color: rgb(177, 172, 172);
+    padding:20px;
+
+}
+
+.title {
+    font-size: 2em;
+    color: rgba(238, 107, 107, 0.979);
+    text-align:center;
+    font-family: 'Zilla Slab', serif;
+    margin-bottom: 0;
+
+}
+
+#about {
+    text-align: center;
+    padding:20px 40px 10px 40px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    padding-top: 20px;
+   
+}
+a {
+    color: black;
+}
+
+#name {
+    font-size: 1.5em;
+    color: rgb(214, 169, 169);
+}
+
+#tech {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#projects {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+}
+
+.pro {
+    display: inline-block;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.945);
+    border-radius: 20px;
+    border: solid thin rgb(61, 20, 20);
+    padding:10px;
+}
+
+.Olink{
+    color: rgb(235, 179, 179);
+}
+
+h2 {
+    color: rgb(214, 169, 169);
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+#contact {
+    text-align: center;
+
+}
